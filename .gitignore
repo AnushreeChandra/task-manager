@@ -1,0 +1,77 @@
+# Node.js
+node_modules/
+.env
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular
+dist/
+.angular/
+*.ngsummary.json
+*.ngfactory.ts
+src/environments/environment*.ts
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Compiled files
+*.class
+*.pyc
+*.pyo
+*.exe
+*.dll
+
+# Temp files
+*.tmp
+*.temp
+
+# Generated coverage reports
+coverage/
+e2e/coverage/
+
+# Build artifacts
+build/
+
+# Miscellaneous
+*.bak
+*.old
+*.orig
+*.rej
+
+# Git
+.git/
+*.seed
+*.pid
+
+# Temporary files created by npm or yarn
+.npm/
+.yarn/
+
+# Angular CLI config
+.sass-cache/
+.clang-format
+.editorconfig
+
+# Build output
+out-tsc/
+
+# Temporary lock files
+*.lock
